@@ -1,0 +1,28 @@
+.coustom{
+   width: 50%;
+   border-radius: 50px 50px 50px 50px;
+   padding: 12px;
+   background-color: rgb(40, 43, 46);
+     
+}
+
+.c-link a{
+    margin: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:450px) {
+
+ .coustom{
+   width: 100%;
+   border-radius: 0%;
+
+}   
+}
