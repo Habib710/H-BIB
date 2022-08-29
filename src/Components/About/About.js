@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade, Zoom } from 'react-reveal';
 import './About.css';
 
 
@@ -8,8 +9,10 @@ const About = () => {
             <h1 className='text-center py-5 text-white'>ABOUT ME</h1>
 
             <div className='row text-white py-4'>
+            <Fade right big cascade>
                 <p className='col-lg-8  p-banner'>Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone. Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone.</p>
                 <p className='col-lg-4 my-tag'>I am a Web developer who cares about the code and the people.</p>
+                </Fade>
             </div>
             <div className='row py-4'>
 
@@ -35,10 +38,11 @@ const About = () => {
                         </div>
                     </div>
                     <button className='btn-grad my-3'>DOWNLOAD CV</button>
-
+                  
                 </div>
-
+                <Zoom left cascade>
                 <div className='col-lg-6 box-div py-4'> 
+               
                 <div class="div-parsonal ">
                     <h1 > 1+  </h1>
                     <p> YEARS OF EXPERIENCE </p>
@@ -55,8 +59,10 @@ const About = () => {
                     <h1> 1.9 +  </h1>
                     <p> AWARDS WON </p>
                     </div>
+                    
 
                 </div>
+                </Zoom>
                 
 
 

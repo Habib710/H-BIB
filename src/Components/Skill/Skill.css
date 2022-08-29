@@ -1,0 +1,23 @@
+.skill-main {
+  padding: 35px;
+  background-color: rgba(43, 42, 42, 0.514);
+  color: aliceblue;
+  border-radius: 8px;
+}
+.all-skill-div {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+}
+.skill-css {
+  padding: 20px 60px 1px 60px;
+  background-color: rgb(46, 46, 46);
+  width: 170px;
+  border-radius: 8px;
+}
+.skill-css p {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 8px;
+}
