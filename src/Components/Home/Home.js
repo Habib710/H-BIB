@@ -4,6 +4,7 @@ import Banner from '../Banner/Banner';
 import Project from '../Projects/Project';
 import About from '../About/About';
 import Skill from '../Skill/Skill';
+import Contract from '../Contract/Contract';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <About></About>
             <Skill></Skill>
             <Project></Project>
+            <Contract></Contract>
         </div>
     );
 };

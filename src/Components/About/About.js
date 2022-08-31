@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fade, Zoom } from 'react-reveal';
 import './About.css';
+import { Icon } from '@iconify/react'
 
 
 const About = () => {
@@ -38,7 +39,7 @@ const About = () => {
                            Language :English, Bangla</p>
                         </div>
                     </div>
-                    <button className='btn-grad my-3'>DOWNLOAD CV</button>
+                    <button className='btn-grad my-3'>DOWNLOAD CV <Icon className='fs-4' icon="charm:download" /></button>
                   
                 </div>
                 <Zoom left cascade>
