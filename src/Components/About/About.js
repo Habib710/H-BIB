@@ -6,6 +6,7 @@ import './About.css';
 const About = () => {
     return (
         <div className='container py-5 '>
+           
             <h1 className='text-center py-5 text-white'>ABOUT ME</h1>
 
             <div className='row text-white py-4'>

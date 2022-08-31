@@ -6,7 +6,7 @@ import CustomLink from '../Custom/CustomLink';
 
 const NavBar = () => {
     return (
-        <div>
+        <div className='mt-4'>
              <Navbar collapseOnSelect expand="lg" className='coustom m-auto '  variant="dark">
       <Container>
        

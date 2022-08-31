@@ -1,0 +1,52 @@
+.div-card-main{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat( auto-fit, minmax(420px, 1fr) );
+
+}
+.div-card {
+    border-radius: 5px;
+    background-color: rgba(49, 49, 49, 0.527);
+    padding: 15px;
+    width:550px ;
+
+}
+.btn-code{
+    margin: 5px;
+    padding: 5px 20px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: rgba(87, 82, 82, 0.473);
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.btn-demo{
+    margin: 5px;
+    padding: 5px 20px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: rgba(35, 115, 235, 0.473);
+    border-radius: 5px;
+    border: 1px solid rgb(252, 252, 252);
+}
+.btn-demo:hover {
+    background-color: rgb(114, 104, 104);
+}
+
+
+
+
+
+
+@media screen and (max-width:450px) {
+
+    .div-card {
+        border-radius: 5px;
+        background-color: rgba(49, 49, 49, 0.527);
+        padding: 15px;
+        width:250px ;
+    
+    }
+
+
+}
