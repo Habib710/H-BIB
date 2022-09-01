@@ -23,7 +23,7 @@ import { Fade } from 'react-reveal';
 
 const Skill = () => {
     return (
-        <div className='container py-5'>
+        <div className=' py-5'>
             <h1 className='text-center text-white py-5'>MY SKILLS</h1>
             <div className='skill-main my-5'>
                 <h4>Language, Framework & other</h4>
