@@ -6,7 +6,7 @@ import { Icon } from '@iconify/react'
 
 const About = () => {
     return (
-        <div className='container py-5 '>
+        <div className=' p-5 '>
            
             <h1 className='text-center py-5 text-white'>ABOUT ME</h1>
 

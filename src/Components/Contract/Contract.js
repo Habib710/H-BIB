@@ -5,7 +5,7 @@ import { Zoom } from 'react-reveal';
 
 const Contract = () => {
     return (
-        <div className='text-white container my-5'>
+        <div className='text-white  m-5'>
             <h1 className='text-center py-5'>GET IN TOUCH</h1>
             <div className='contract-css'>
             <Zoom>

@@ -1,7 +1,8 @@
 .div-card-main{
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat( auto-fit, minmax(420px, 1fr) );
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
 
 }
 .div-card {
