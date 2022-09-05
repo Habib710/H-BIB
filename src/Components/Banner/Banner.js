@@ -29,19 +29,19 @@ const Banner = () => {
           </Fade>
           <Fade right big cascade>
             <div className="pt-5 icon-css-baner">
-              <a href="mdhabib71024@gmail.com">
+              <a href="mdhabib71024@gmail.com" target='blank'>
                 <Icon icon="dashicons:email-alt" />
               </a>
               <a href="+8801571024601">
                 <Icon icon="fluent:call-32-filled" />
               </a>
-              <a href="https://www.facebook.com/profile.php?id=100015363064250">
+              <a href="https://www.facebook.com/profile.php?id=100015363064250" target='blank'>
                 <Icon icon="cib:facebook" />
               </a>
-              <a href="https://www.linkedin.com/in/md-habibullah710/">
+              <a href="https://www.linkedin.com/in/md-habibullah710/" target='blank'>
                 <Icon icon="entypo-social:linkedin-with-circle" />
               </a>
-              <a href="https://github.com/Habib710">
+              <a href="https://github.com/Habib710" target='blank'>
                 <Icon icon="codicon:github-inverted" />
               </a>
               <a href="#i">

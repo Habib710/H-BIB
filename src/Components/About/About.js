@@ -2,6 +2,7 @@ import React from 'react';
 import { Fade, Zoom } from 'react-reveal';
 import './About.css';
 import { Icon } from '@iconify/react'
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -26,7 +27,7 @@ const About = () => {
                             <p>Age : 22 Years</p>
                             <p>Freelance :</p>
                             <p>Phone : +8801571024601</p>
-                            <p>Github : </p>
+                            <p>Github : <a href="https://github.com/Habib710">Link</a>  </p>
                         </div>
                         <div  className='col-lg-6'>
                             <p>
@@ -39,7 +40,7 @@ const About = () => {
                            Language :English, Bangla</p>
                         </div>
                     </div>
-                    <button className='btn-grad my-3'>DOWNLOAD CV <Icon className='fs-4' icon="charm:download" /></button>
+                   <a href="https://drive.google.com/file/d/1YqQ_WcfWUP6SGyiLHC8bGvvyg7UuRvle/view?usp=sharing" target='blank'> <button className='btn-grad my-3'>DOWNLOAD CV <Icon className='fs-4' icon="charm:download" /></button></a>
                   
                 </div>
                 <Zoom left cascade>
