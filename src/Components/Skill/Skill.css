@@ -11,7 +11,7 @@
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 }
 .skill-css {
-  box-shadow: 0 10px 15px   rgb(145, 143, 143);
+  box-shadow: 0 6px 15px   rgb(145, 143, 143);
   padding: 20px 60px 1px 60px;
   background-color: rgb(46, 46, 46);
   width: 170px;

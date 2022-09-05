@@ -3,6 +3,7 @@ import { Fade, Slide } from 'react-reveal'
 import Zoom from 'react-reveal/Zoom'
 import './Banner.css'
 import { Icon } from '@iconify/react'
+import { Link } from 'react-router-dom'
 
 const Banner = () => {
   return (
@@ -24,26 +25,26 @@ const Banner = () => {
               CSS, Node js, Mongo DB, Express JS etc.....
             </p>
 
-            <button className="btn-grad">More About Me</button>
+           <Link to="/about"> <button className="btn-grad">More About Me</button></Link>
           </Fade>
           <Fade right big cascade>
             <div className="pt-5 icon-css-baner">
-              <a href="#fg">
+              <a href="mdhabib71024@gmail.com">
                 <Icon icon="dashicons:email-alt" />
               </a>
-              <a href="#fg">
+              <a href="+8801571024601">
                 <Icon icon="fluent:call-32-filled" />
               </a>
-              <a href="#fg">
+              <a href="https://www.facebook.com/profile.php?id=100015363064250">
                 <Icon icon="cib:facebook" />
               </a>
-              <a href="#fg">
+              <a href="https://www.linkedin.com/in/md-habibullah710/">
                 <Icon icon="entypo-social:linkedin-with-circle" />
               </a>
-              <a href="#fg">
+              <a href="https://github.com/Habib710">
                 <Icon icon="codicon:github-inverted" />
               </a>
-              <a href="#fg">
+              <a href="#i">
                 <Icon icon="bxl:instagram-alt" />
               </a>
             </div>

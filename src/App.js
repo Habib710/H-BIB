@@ -4,6 +4,7 @@ import About from './Components/About/About';
 import Home from './Components/Home/Home';
 import NavBar from './Components/NavBar/NavBar';
 import './App.css'
+import Contract from './Components/Contract/Contract';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path='*' element={<Home></Home>}></Route>
       <Route path='/home' element={<Home></Home>}></Route>
       <Route path='/about' element={<About></About>}></Route>
+      <Route path='/cont' element={<Contract></Contract>}></Route>
       </Routes>
       
     </div>

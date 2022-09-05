@@ -9,6 +9,7 @@ import doc from '../images/doc.png'
 import tas from '../images/task.png'
 import { Zoom } from 'react-reveal'
 import { Icon } from '@iconify/react'
+import { Link } from 'react-router-dom'
 
 const Project = () => {
   return (
@@ -24,25 +25,24 @@ const Project = () => {
         <div className="div-card d-lg-flex ">
           <img width="100%" height="200px" src={tas} alt="img" />
           <div className="ms-4">
-            <h4>anme</h4>
+            <h4>Ed Teach</h4>
             <p>
               My best experience is to create Data Science projects and deploy
               them to web applications using cloud infrastructure.
             </p>
-            <button className="btn-code">Code  <Icon icon="bx:code-alt" /></button>
-            <button className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /> </button>
+            <a href='https://github.com/Habib710/Ed-Teach' target="blank" className="btn-code">Code  <Icon icon="bx:code-alt" /></a>
+            <a href='https://ed-teach.web.app/home' target="blank"  className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /> </a>
           </div>
         </div>
         <div className="div-card d-lg-flex ">
-          <img width="100%" height="200px" src={depo} alt="img" />
+          <img  width="100%" height="200px" src={depo} alt="img" />
           <div className="ms-4">
-            <h4>anme</h4>
+            <h4>Deponik</h4>
             <p>
-              My best experience is to create Data Science projects and deploy
-              them to web applications using cloud infrastructure.
+              React Js,, Bootstarp,,, <br /> Node Js ,,,Express Js <br />,,MongoDB,,Fribase,,,,
             </p>
-            <button className="btn-code">Code <Icon icon="bx:code-alt" /></button>
-            <button className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /></button>
+            <a href='https://github.com/Habib710/Deponik-client-p' target="blank" className="btn-code">Code <Icon icon="bx:code-alt" /></a>
+            <a href='https://deponic-62e80.web.app/home' target="blank" className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /></a>
           </div>
         </div>
         <div className="div-card d-lg-flex ">
@@ -86,8 +86,8 @@ const Project = () => {
           <div className="ms-4">
             <h4>anme</h4>
             <p>
-              My best experience is to create Data Science projects and deploy
-              them to web applications using cloud infrastructure.
+              
+              React Js,, Bootstarp,,, <br /> Node Js ,,,Express Js <br />,,MongoDB,,Fribase,,,,
             </p>
             <button className="btn-code">Code <Icon icon="bx:code-alt" /></button>
             <button className="btn-demo">Demo <Icon className='fs-5' icon="foundation:monitor" /></button>

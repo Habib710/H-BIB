@@ -12,7 +12,15 @@
     width:550px ;
 
 }
+.div-card img {
+    border-radius: 5px;
+    background-color: rgba(49, 49, 49, 0.527);
+    padding: 15px;
+    width:250px ;
+
+}
 .btn-code{
+    text-decoration: none;
     margin: 5px;
     padding: 5px 20px;
     font-weight: 500;
@@ -22,6 +30,7 @@
     border: 1px solid rgb(255, 255, 255);
 }
 .btn-demo{
+    text-decoration: none;
     margin: 5px;
     padding: 5px 20px;
     font-weight: 500;
@@ -41,11 +50,28 @@
 
 @media screen and (max-width:450px) {
 
+    .div-card-main{
+        display: grid;
+        gap: 30px;
+        justify-content: center;
+        grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    
+    }
+
     .div-card {
+       
+        
         border-radius: 5px;
         background-color: rgba(49, 49, 49, 0.527);
-        padding: 15px;
-        width:250px ;
+        padding: 5px;
+        width:280px ;
+    
+    }
+    .div-card img {
+        border-radius: 5px;
+        background-color: rgba(49, 49, 49, 0.527);
+        padding: 10px;
+        width:150px ;
     
     }
 

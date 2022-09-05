@@ -5,11 +5,11 @@ import { Zoom } from 'react-reveal';
 
 const Contract = () => {
     return (
-        <div className='text-white  m-5'>
+        <div className='text-white  m-4 '>
             <h1 className='text-center py-5'>GET IN TOUCH</h1>
             <div className='contract-css'>
             <Zoom>
-                <div className='p-banner p-3'>
+                <div className='p-banner p-lg-3'>
                     <h2>DON'T BE SHY !</h2>
                     <p className='p-banner my-4'>Feel free to get in touch with me. <br /> I am always open to discussing new projects, <br /> creative ideas or opportunities to be part of your visions.</p>
 

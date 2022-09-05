@@ -15,7 +15,7 @@ const NavBar = () => {
           <Nav className="m-auto c-link">
             <CustomLink  to="/home">Home</CustomLink>
             <CustomLink to="/about">About</CustomLink>
-            <CustomLink to="/contact">Contract</CustomLink>
+            <CustomLink to="/cont">Contract</CustomLink>
            
           
           </Nav>
