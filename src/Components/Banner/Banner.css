@@ -53,6 +53,10 @@ h1{
     font-size: 30px;
     margin-right: 30px;
   }
+  .icon-css-baner a:hover{
+    color: #47afeb;
+    background-color:transparent;
+  }
   .p-banner{
    
     line-height: 28px;

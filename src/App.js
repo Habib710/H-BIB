@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import NavBar from './Components/NavBar/NavBar';
 import './App.css'
 import Contract from './Components/Contract/Contract';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path='/about' element={<About></About>}></Route>
       <Route path='/cont' element={<Contract></Contract>}></Route>
       </Routes>
+      <Footer></Footer>
       
     </div>
   );

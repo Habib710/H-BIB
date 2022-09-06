@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 
 const Project = () => {
   return (
-    <div className="m-5">
+    <div className=" m-5">
       <h1 className="text-center text-white py-4">PROJECTS</h1>
       <p className="text-center p-banner my-5 ">
         My projects makes use of vast variety of latest technology tools. <br />{' '}
