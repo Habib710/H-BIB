@@ -23,11 +23,13 @@ const Contract = () => {
                     <h5 className='ms-lg-5'>+8801571024601</h5>
                 </div>
                 <div>
-                    <input className='input' type="text" placeholder='Your Full Name' />
-                    <input className='input' type="email" placeholder='Your Mail' />
-                    <input className='input' type="text" placeholder='Subject' />
-                    <textarea rows="4"  className='input' type="text" placeholder='Your Massage' />
-                   <button className='btn-grad m-3'>Send <Icon className='fs-5' icon="bxs:send" /> </button>
+                    <form action="fghgfh" method="POST">
+                    <input className='input' type="text" placeholder='Your Full Name' name="name" required />
+                    <input className='input' type="email" placeholder='Your Mail' name="email" required />
+                    <input className='input' type="number" placeholder='Phone Numbe' />
+                    <textarea rows="4"  className='input' type="text" placeholder='Your Massage' name="text" required  />
+                   <button type='submit' className='btn-grad m-3'>Send <Icon className='fs-5' icon="bxs:send" /> </button>
+                   </form>
                     
                 </div>
                 </Zoom>

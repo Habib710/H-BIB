@@ -2,12 +2,12 @@ import React from 'react';
 import { Fade, Zoom } from 'react-reveal';
 import './About.css';
 import { Icon } from '@iconify/react'
-import { Link } from 'react-router-dom';
+
 
 
 const About = () => {
     return (
-        <div className=' p-5 '>
+        <div className='container py-5 '>
            
             <h1 className='text-center py-5 text-white'>ABOUT ME</h1>
 

@@ -66,7 +66,7 @@ a:hover{
 
     .div-card {
        
-        
+        min-height: 290px   ;
         border-radius: 5px;
         background-color: rgba(49, 49, 49, 0.527);
         padding: 5px;
