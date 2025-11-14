@@ -13,16 +13,12 @@ const Banner = () => {
 
         <div className="banner-heading col-lg-6 text-white py-4 ">
           <Fade bottom big cascade>
-            <h1>HI,</h1>
-            <h1>
-              I AM <span className="heading"> MD HABIBULLAH</span>{' '}
-            </h1>
-            <h1>WEB-DEVELOPER</h1>
+            <h1>Hello,</h1>
+            <h1>I AM <span className="heading"> MD HABIBULLAH</span>{' '}</h1>
+            <h3>Software QA Engineer <br /> & Web Devoloper </h3>
 
             <p className="py-4 p-banner">
-              I am a full-stack web developer with 1+ years of experience with
-              modern technologies like React js , HTML,Bootstarp ,CSS, Tailwind
-              CSS, Node js, Mongo DB, Express JS etc.....
+              Manual, API & Automation Testing | Skilled in Test Case Design, <br />Bug Reporting & Agile QA.
             </p>
 
            <Link to="/about"> <button className="btn-grad">More About Me</button></Link>

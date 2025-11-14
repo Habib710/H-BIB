@@ -17,6 +17,8 @@ import sss from '../images/scss.webp'
 import next from '../images/nextjs.webp'
 import fig from '../images/figma.png'
 import py from '../images/python.webp'
+import jira from '../images/jira2.jpg'
+import post from '../images/post.png'
 
 import redux from '../images/2020-05-04-ionic-react-and-redux-74ed1080.png'
 import { Fade } from 'react-reveal';
@@ -29,6 +31,14 @@ const Skill = () => {
                 <h4>Language, Framework & other</h4>
                 <div className='all-skill-div'>
                 <Fade bottom big cascade>
+                    <div className='skill-css text-center my-4'>
+                        <img width="100%" src={jira} alt="img" />
+                        <p>Jira</p>
+                    </div>
+                    <div className='skill-css text-center my-4'>
+                        <img width="100%" src={post} alt="img" />
+                        <p>Postman</p>
+                    </div>
                     <div className='skill-css text-center my-4'>
                         <img width="100%" src={html} alt="img" />
                         <p>HTML</p>

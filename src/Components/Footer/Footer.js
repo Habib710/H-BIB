@@ -6,9 +6,10 @@ const Footer = () => {
     return (
         <div className='main-div-footer text-white  d-lg-flex p-5 mt-5 '>
          <div>
-            <h4>H@BIB</h4>
+            <h4>Md Habibullah</h4>
             <p>Personal Website as a protfolio</p>
-            <p>Developing software for the world of intent is something <br /> I'm passionate about and I'm dedicated to making <br />  the world of intent easy and affordable for everyone.</p>
+            <p>Detail-oriented and passionate Software Quality Assurance(SQA)<br /> enthusiast with strong knowl 
+edge of SDLC, STLC, and Agile methodology.</p>
          </div>
          <div className='icon-css-baner'>
             <h4>Socail Link</h4>
@@ -39,7 +40,7 @@ const Footer = () => {
             <h5>Developed By <br /> Md Habibullah</h5>
             <br />
             <h6>All Right Reserved</h6>
-            <h6>Copyright @ 2022</h6>
+            <h6>Copyright 2025</h6>
          </div>
             
         </div>
