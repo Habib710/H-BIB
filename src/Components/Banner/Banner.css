@@ -64,6 +64,46 @@ h1{
     font-size: 20px;
     font-weight: 400;
   }
+  .banner-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.floating-icon {
+  position: absolute;
+  font-size: 42px;
+  opacity: 0.15;
+  color: #ffffff;
+}
+
+.icon-1 { top: 10%; left: 5%; }
+.icon-2 { bottom: 20%; right: 10%; }
+.icon-3 { top: 50%; right: 25%; }
+
+.heading-glow {
+  color: #0ff;
+  text-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+}
+
+.icon-css-baner a {
+  margin-right: 18px;
+}
+
+.icon-css-baner svg {
+  transition: 0.3s;
+}
+.floating-icon {
+  position: absolute;
+  color: rgb(50, 150, 243);
+  z-index: 1;
+}
+
+.main-div-banner {
+  position: relative;
+  z-index: 2;
+}
+
+
  
 
   @media screen and (max-width:450px) {

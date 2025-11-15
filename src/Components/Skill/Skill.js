@@ -30,7 +30,8 @@ const Skill = () => {
             <div className='skill-main my-5'>
                 <h4>Language, Framework & other</h4>
                 <div className='all-skill-div'>
-                <Fade bottom big cascade>
+                    
+              <Fade direction="up" cascade damping={0.15} triggerOnce>
                     <div className='skill-css text-center my-4'>
                         <img width="100%" src={jira} alt="img" />
                         <p>Jira</p>
@@ -103,7 +104,7 @@ const Skill = () => {
             <div className='skill-main my-5'>
                 <h4>Cooming Soon</h4>
                 <div className='all-skill-div'>
-                <Fade bottom big cascade>
+         <Fade direction="right" cascade damping={0.15} triggerOnce>
                
                 <div className='skill-css text-center my-4'>
                         <img width="100%" src={ts} alt="img" />
