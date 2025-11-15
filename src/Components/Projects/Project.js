@@ -7,7 +7,7 @@ import asa from '../images/sss.png'
 import ee from '../images/jantrik.png'
 import doc from '../images/doc.png'
 import tas from '../images/task.png'
-import { Zoom } from 'react-reveal'
+import { Fade, Zoom, Slide } from "react-awesome-reveal";
 import { Icon } from '@iconify/react'
 import { Link } from 'react-router-dom'
 

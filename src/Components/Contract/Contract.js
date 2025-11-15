@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
 import './Contract.css';
-import { Zoom } from 'react-reveal';
+import { Fade, Zoom, Slide } from "react-awesome-reveal";
 
 const Contract = () => {
     return (

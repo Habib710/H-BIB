@@ -21,7 +21,7 @@ import jira from '../images/jira2.jpg'
 import post from '../images/post.png'
 
 import redux from '../images/2020-05-04-ionic-react-and-redux-74ed1080.png'
-import { Fade } from 'react-reveal';
+import { Fade, Zoom, Slide } from "react-awesome-reveal";
 
 const Skill = () => {
     return (
