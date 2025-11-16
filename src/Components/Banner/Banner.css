@@ -94,7 +94,7 @@ h1{
 }
 .floating-icon {
   position: absolute;
-  color: rgb(50, 150, 243);
+  color: rgb(50, 214, 243);
   z-index: 1;
 }
 
@@ -107,9 +107,14 @@ h1{
  
 
   @media screen and (max-width:450px) {
+.main-div-banner{
 
+  margin-left: 5%;
+}
     .pp-img{
-    
+    margin-left: 0;
+    margin-bottom: 45px;
+    margin-top: 40px;
         width: 300px;
         height: 300px;
         border: 5px solid rgb(52, 95, 145);
@@ -118,6 +123,7 @@ h1{
         background-size: cover;
         background-position: center center;
         background-image: url(../images/habib2.png);
+        
     }
 
     

@@ -14,12 +14,45 @@
     color: rgb(100, 166, 252);
 
 }
+
 .div-parsonal p{
     font-size: 20px;
 
+}
+.idp_pic{
+margin-left: 15%;
+    border: 5px solid rgb(59, 99, 145);
+    box-shadow: 0 18px 45px   rgb(92, 111, 148);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10%;
 }
 .box-div{
     display: grid;
     gap: 30px;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
 }
+.idp_p{
+    font-weight: 400;
+    font: 1.2em italic;
+}
+.idp_p b{
+   color: rgb(49, 171, 241);
+}
+
+
+ @media screen and (max-width:450px) {
+
+.box-div{
+    padding: 2px;
+}
+.my-tag{
+    margin-left: 10%;
+}
+.idp_pic{
+    padding: 3px;
+}
+
+
+ }

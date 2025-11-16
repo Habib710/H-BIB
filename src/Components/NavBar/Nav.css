@@ -12,6 +12,16 @@
     text-decoration: none;
     
 }
+.c-link a:hover{
+    margin: 15px;
+    font-weight: 900;
+   
+    padding: 3px;
+
+    text-decoration: none;
+   
+    
+}
 
 
 

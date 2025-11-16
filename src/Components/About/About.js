@@ -2,6 +2,7 @@ import React from 'react';
 import { Fade, Zoom } from "react-awesome-reveal";
 import './About.css'; 
 import { Icon } from '@iconify/react'
+import idp from '../images/idp.webp'
 
 const About = () => {
     return (
@@ -38,18 +39,18 @@ const About = () => {
                 <div className='col-lg-12 center'>
                     <h2 className='heading'>PERSONAL INFO</h2> 
                     <div className='row p-banner li-css'>
-                        <div className='col-lg-6 p-4 center'>
+                        <div className='col-lg-6 p-4 ml-40'>
                             <p>First Name : Mohammad</p>
-                            <p>Age : 22 Years</p>
-                            <p>Freelance : </p>
-                            <p>Phone : +8801571024601</p>
-                            <p>Github : <a href="your_github_link" target='_blank' rel="noopener noreferrer">Link</a></p>
+                            <p>Age : 25 Years</p>
+                            <p>Blood Group : AB+ </p>
+                            <p>Education : BSc in CSE.</p>
+                            <p></p>
                         </div>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 mt-4'>
                             <p>Last Name : Habibullah</p>
                             <p>Nationality : Bangladeshi</p>
-                            <p>Address : Dhaka</p>
-                            <p>Email : mdhabib71024@gmail.com</p>
+                            <p>Address : Narayanganj, Dhaka.</p>
+                            <p>Institution :  Green university of Bangladesh</p>
                             <p>Language : English, Bangla</p>
                         </div>
                     </div>
@@ -66,36 +67,57 @@ const About = () => {
                     {/* The 'box-div' now manages the 2x2 grid using the CSS Grid styles you provided. */}
                     <div className='col-lg-12 py-2 c'> 
                         
-                        <div className="box-div"> {/* CSS Grid is applied here */}
+                        <div className="box-div my-5"> {/* CSS Grid is applied here */}
                             
                             {/* Box 1: YEARS OF EXPERIENCE */}
                             <div className="div-parsonal text-center"> 
-                                <h1> 1+ </h1>
-                                <p> YEARS OF EXPERIENCE </p>
+                                <h1> 0-1+ </h1>
+                                <p> YEARS OF QA EXPERIENCE </p>
                             </div>
                             
                             {/* Box 2: COMPLETED PROJECTS */}
                             <div className="div-parsonal text-center"> 
-                                <h1> 40 + </h1>
-                                <p> COMPLETED PROJECTS</p>
+                                <h1> 10 + </h1>
+                                <p> QA PROJECTS</p>
                             </div>
                             
                             {/* Box 3: HAPPY CUSTOMERS */}
                             <div className="div-parsonal text-center"> 
                                 <h1> 5 + </h1>
-                                <p> HAPPY CUSTOMERS </p>
+                                <p> Automation </p>
                             </div>
                             
                             {/* Box 4: AWARDS WON */}
                             <div className="div-parsonal text-center">
-                                <h1> 1.9 + </h1>
-                                <p> AWARDS WON</p>
+                                <h1> 2 + </h1>
+                                <p>Achievements </p>
                             </div>
 
                         </div>
                     </div>
                 </Zoom>
             </div>
+<div> 
+
+<h1 className='text-center py-1 text-white'>Achievements</h1>
+ <Fade direction="up" cascade damping={0.2} triggerOnce>
+<div className='row mt-5 pt-3 col-lg-12'>
+
+<div className='col-lg-6 '>
+<img className='idp_pic pl-3 ' width="70%" height="250px" src={idp} alt="img" />
+    
+</div>
+
+<div className='col-lg-6 text-white px-3 idp_p'>
+<p> "Won the IDP-1 Best Project Award (2024) at Green University of Bangladesh for our team-developed project <b>Smart Tutoring System with Handwritten Note Recognition and AI-Driven Assistance</b>. Contributed to system design, AI integration, and overall project execution."</p>
+
+</div>
+
+
+</div>
+</Fade>
+</div>
+
         </div>
     );
 };
