@@ -17,8 +17,16 @@ import sss from '../images/scss.webp'
 import next from '../images/nextjs.webp'
 import fig from '../images/figma.png'
 import py from '../images/python.webp'
-import jira from '../images/jira2.jpg'
-import post from '../images/post.png'
+import jira from '../images/brandmark-logo-jira.svg'
+import post from '../images/postman-logo-icon-orange.svg'
+import selenium from '../images/Selenium_Logo.png'
+import sql from '../images/sql.png'
+import play from '../images/playwright-logo.svg'
+import test from '../images/testrail.webp'
+import trello from '../images/UY7DlO0a_400x400.png'
+import sqls from '../images/sql.png'
+import cyss from '../images/cypress_logo_social.png'
+import appium from '../images/appium.png'
 
 import redux from '../images/2020-05-04-ionic-react-and-redux-74ed1080.png'
 import { Fade, Zoom, Slide } from "react-awesome-reveal";
@@ -32,6 +40,14 @@ const Skill = () => {
                 <div className='all-skill-div'>
                     
               <Fade direction="up" cascade damping={0.15} triggerOnce>
+                <div className='skill-css text-center my-4'>
+                        <img width="100%" src={selenium} alt="img" />
+                        <p>Selenium</p>
+                    </div>
+                    <div className='skill-css text-center my-4'>
+                        <img width="100%"  src={play} alt="img" />
+                        <p>PlayWright</p>
+                    </div>
                     <div className='skill-css text-center my-4'>
                         <img width="100%" src={jira} alt="img" />
                         <p>Jira</p>
@@ -40,6 +56,20 @@ const Skill = () => {
                         <img width="100%" src={post} alt="img" />
                         <p>Postman</p>
                     </div>
+                    <div className='skill-css text-center my-4'>
+                        <img width="100%" src={test} alt="img" />
+                        <p>TestRail</p>
+                    </div>
+                    <div className='skill-css text-center my-4'>
+                        <img width="100%" height={54} src={trello} alt="img" />
+                        <p>Trello</p>
+                    </div>
+                      <div className='skill-css text-center my-4'>
+                        <img width="100%" src={py} alt="img" />
+                        <p>PYTHON</p>
+                    </div>
+                      
+                      
                     <div className='skill-css text-center my-4'>
                         <img width="100%" src={html} alt="img" />
                         <p>HTML</p>
@@ -75,6 +105,10 @@ const Skill = () => {
                     <div className='skill-css text-center my-4'>
                         <img width="50%" src={mongo} alt="img" />
                         <p>MONGODB</p>
+                    </div>
+                    <div className='skill-css text-center my-4'>
+                        <img width="50%" height={50}  src={sqls} alt="img" />
+                        <p>MySQL</p>
                     </div>
                     <div className='skill-css text-center my-4'>
                         <img width="70%" src={fire} alt="img" />
@@ -119,9 +153,14 @@ const Skill = () => {
                         <p>Next js</p>
                     </div>
                 <div className='skill-css text-center my-4'>
-                        <img width="100%" src={py} alt="img" />
-                        <p>PYTHON</p>
+                        <img width="100%" height={50}  src={cyss} alt="img" />
+                        <p>Cypress</p>
                     </div>
+                <div className='skill-css text-center my-4'>
+                        <img width="100%" src={appium} alt="img" />
+                        <p>Appium</p>
+                    </div>
+              
                     </Fade>
 
                 </div>
