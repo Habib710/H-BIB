@@ -1,12 +1,12 @@
 import React from 'react'
 import './Project.css'
-import depo from '../images/deponik.png'
+import depo from '../images/TestCase_1.png'
 import eshop from '../images/todo.png'
 import sss from '../images/asa.png'
 import asa from '../images/sss.png'
-import ee from '../images/jantrik.png'
+import ee from '../images/sele_11.png'
 import doc from '../images/doc.png'
-import tas from '../images/task.png'
+import tas from '../images/bug_1.png'
 import { Fade, Zoom, Slide } from "react-awesome-reveal";
 import { Icon } from '@iconify/react'
 import { Link } from 'react-router-dom'
@@ -16,46 +16,43 @@ const Project = () => {
     <div className=" m-5">
       <h1 className="text-center text-white py-4">PROJECTS</h1>
       <p className="text-center p-banner my-5 ">
-        My projects makes use of vast variety of latest technology tools. <br />{' '}
-        My best experience is to create Data Science projects and deploy them to
-        web applications using cloud infrastructure.
+        “End-to-End Test Automation Suite With Test Strategy, Bug Reports, and CI Integration”
       </p>
       <div className="text-white div-card-main my-5">
-      <Zoom left big cascade>
+     <Fade direction="up" cascade damping={0.15} triggerOnce>
         <div className="div-card d-lg-flex ">
           <img width="100%" height="200px" src={tas} alt="img" />
           <div className="ms-4">
-            <h4>Ed Teach</h4>
+            <h4>Bug Report</h4>
             <p>
-              Front-end <br />
+              OTT platfrom website <br />
 
-            ReactJs, Bootstrap, React Hook,Router etc.
+            Test types : functional,Non-functional,prefomence, regression, UI/UX.
             </p>
-            <a href='https://github.com/Habib710/Ed-Teach' target="blank" className="btn-code">Code  <Icon icon="bx:code-alt" /></a>
-            <a href='https://ed-teach.web.app/home' target="blank"  className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /> </a>
+            
+            <a href='https://docs.google.com/spreadsheets/d/1UJFwc_Th2NrigBPnVi_yUX9ihuja1E75X7h1l48CD0E/edit?gid=1352034207#gid=1352034207' target="blank"  className="btn-demo">Click to Know  <Icon className='fs-5' icon="foundation:monitor" /> </a>
           </div>
         </div>
         <div className="div-card d-lg-flex ">
           <img  width="100%" height="200px" src={depo} alt="img" />
           <div className="ms-4">
-            <h4>Deponik</h4>
+            <h4>Test Case</h4>
             <p>
-            ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, JWT, Bootstrap, React Hook Form.
+          E-Comerce website
             </p>
-            <a href='https://github.com/Habib710/Deponik-client-p' target="blank" className="btn-code">Code <Icon icon="bx:code-alt" /></a>
-            <a href='https://deponic-62e80.web.app/home' target="blank" className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /></a>
+            <a href='https://docs.google.com/spreadsheets/d/1sHKrWEHinDly5w8cpWhlxakfGY84d7Jvqq5c4v_25HQ/edit?gid=0#gid=0' target="blank" className="btn-demo">Click to Know <Icon className='fs-5' icon="foundation:monitor" /></a>
+           
           </div>
         </div>
         <div className="div-card d-lg-flex ">
           <img width="100%" height="200px" src={ee} alt="img" />
           <div className="ms-4">
-            <h4>JanTrik</h4>
+            <h4>Selenium Projct</h4>
             <p>
               
-            ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, JWT, Bootstrap, React Hook Form.
+            Automation, Healthcare website testing, Booking,login.
             </p>
-            <a href='https://jantrik-d4cca.web.app/' target="blank" className="btn-code">Code  <Icon icon="bx:code-alt" /></a>
-            <a href='https://github.com/Habib710/Jantrik-client-p' target="blank"  className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /> </a>
+            <a href='https://github.com/Habib710/Healthcare-service_with_selenium' target="blank"  className="btn-demo">Go to the Code <Icon className='fs-5' icon="foundation:monitor" /> </a>
           </div>
         </div>
         <div className="div-card d-lg-flex ">
@@ -98,20 +95,8 @@ ReactJs, Bootstrap, React Hook,Router etc.
           </div>
         </div>
        
-        <div className="div-card d-lg-flex ">
-          <img width="100%" height="200px" src={asa} alt="img" />
-          <div className="ms-4">
-            <h4>dEMO</h4>
-            <p>
-            Front-end <br />
-
-ReactJs, Bootstrap, React Hook,Router etc.
-            </p>
-            <a href='https://fir-9ceef.web.app/' target="blank" className="btn-code">Code  <Icon icon="bx:code-alt" /></a>
-            <a href='https://github.com/Habib710/Demo-task' target="blank"  className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /> </a>
-          </div>
-        </div>
-        </Zoom>
+      
+       </Fade>
       </div>
     </div>
   )
