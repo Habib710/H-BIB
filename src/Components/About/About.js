@@ -55,7 +55,7 @@ const About = () => {
                         </div>
                     </div>
                     {/* The Download CV Button */}
-                    <a href="https://drive.google.com/file/d/1YqQ_WcfWUP6SGyiLHC8bGvvyg7UuRvle/view?usp=sharing" target='_blank' rel="noopener noreferrer"> 
+                    <a href="https://drive.google.com/file/d/1P34guooKU5q29A27avBjEjVzpRdcrEAz/view?usp=sharing" target='_blank' rel="noopener noreferrer"> 
                         <button className='btn-grad my-3'>
                             DOWNLOAD CV <Icon className='fs-4' icon="charm:download" />
                         </button>
