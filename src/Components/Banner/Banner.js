@@ -95,7 +95,7 @@ const Banner = () => {
 
           <p className="py-4 p-banner">
             Manual, API & Automation Testing | Skilled in Test Case Design, <br />
-            Bug Reporting & Agile QA.
+            Bug Reporting & Agile QA.....................
           </p>
 
           <Link to="/about">

@@ -4,7 +4,9 @@ import depo from '../images/TestCase_1.png'
 import eshop from '../images/todo.png'
 import sss from '../images/asa.png'
 import asa from '../images/sss.png'
+import bug2 from '../images/Bug_23.png'
 import ee from '../images/sele_11.png'
+import excu from '../images/excu.png'
 import doc from '../images/doc.png'
 import tas from '../images/bug_1.png'
 import { Fade, Zoom, Slide } from "react-awesome-reveal";
@@ -33,6 +35,20 @@ const Project = () => {
             <a href='https://docs.google.com/spreadsheets/d/1UJFwc_Th2NrigBPnVi_yUX9ihuja1E75X7h1l48CD0E/edit?gid=1352034207#gid=1352034207' target="blank"  className="btn-demo">Click to Know  <Icon className='fs-5' icon="foundation:monitor" /> </a>
           </div>
         </div>
+          <div className="div-card d-lg-flex ">
+          <img width="100%" height="200px" src={bug2} alt="img" />
+          <div className="ms-4">
+            <h4>Test Case Document</h4>
+            <p>
+              
+App Testing Service <br />
+
+            Test types : covering functional, UI, security, accessibility, and negative/edge cases.
+            </p>
+            
+            <a href='https://docs.google.com/spreadsheets/d/1tf4ay-OWLlKRjKDxy34EF4a336C3nO2_ZdP-Uv3JYiw/edit?gid=1237881071#gid=1237881071' target="blank"  className="btn-demo">Click to Know  <Icon className='fs-5' icon="foundation:monitor" /> </a>
+          </div>
+        </div>
         <div className="div-card d-lg-flex ">
           <img  width="100%" height="200px" src={depo} alt="img" />
           <div className="ms-4">
@@ -56,6 +72,20 @@ const Project = () => {
           </div>
         </div>
         <div className="div-card d-lg-flex ">
+          <img width="100%" height="200px" src={excu} alt="img" />
+          <div className="ms-4">
+            <h4>Test Execution Log-</h4>
+            <p>
+              
+            Test cases were executed, pass/fail, environment ''device model, OS, app version''', timestamps.
+            </p>
+            <a href='https://docs.google.com/spreadsheets/d/1tf4ay-OWLlKRjKDxy34EF4a336C3nO2_ZdP-Uv3JYiw/edit?gid=1411555087#gid=1411555087' target="blank"  className="btn-demo">Go to the Code <Icon className='fs-5' icon="foundation:monitor" /> </a>
+          </div>
+        </div>
+
+      
+
+        <div className="div-card d-lg-flex ">
           <img width="100%" height="200px" src={eshop} alt="img" />
           <div className="ms-4">
             <h4>Inventory</h4>
@@ -65,23 +95,11 @@ const Project = () => {
             
             ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, JWT, Bootstrap, React Hook Form.
             </p>
-            <a href='https://task-inventroy.web.app/' target="blank" className="btn-code">Code  <Icon icon="bx:code-alt" /></a>
-            <a href='https://github.com/Habib710/Task-inventory' target="blank"  className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /> </a>
+            <a href='https://task-inventroy.web.app/' target="blank" className="btn-code">Demo  <Icon icon="foundation:monitor"  /></a>
+            <a href='https://github.com/Habib710/Task-inventory' target="blank"  className="btn-demo">Code <Icon icon="bx:code-alt"className='fs-5'  /> </a>
           </div>
         </div>
-        <div className="div-card d-lg-flex ">
-          <img width="100%" height="200px" src={sss} alt="img" />
-          <div className="ms-4">
-            <h4>SCRUM</h4>
-            <p>
-            Front-end <br />
-
-ReactJs, Bootstrap, React Hook,Router etc.
-            </p>
-            <a href='https://task-scrum-ea811.web.app/' target="blank" className="btn-code">Code  <Icon icon="bx:code-alt" /></a>
-            <a href='https://github.com/Habib710/TASk-SCRUM' target="blank"  className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /> </a>
-          </div>
-        </div>
+       
         <div className="div-card d-lg-flex ">
           <img width="100%" height="200px" src={doc} alt="img" />
           <div className="ms-4">
@@ -90,8 +108,8 @@ ReactJs, Bootstrap, React Hook,Router etc.
                
             ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, JWT, Bootstrap, React Hook Form.
             </p>
-            <a href='https://doctor-5a5be.web.app/' target="blank" className="btn-code">Code  <Icon icon="bx:code-alt" /></a>
-            <a href='https://github.com/Habib710/Doctor-Portal' target="blank"  className="btn-demo">Demo  <Icon className='fs-5' icon="foundation:monitor" /> </a>
+            <a href='https://doctor-5a5be.web.app/' target="blank" className="btn-code">Demo <Icon icon="foundation:monitor" /></a>
+            <a href='https://github.com/Habib710/Doctor-Portal' target="blank"  className="btn-demo">Code  <Icon className='fs-5'  icon="bx:code-alt" /> </a>
           </div>
         </div>
        
