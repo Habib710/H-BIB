@@ -20,7 +20,6 @@ import py from '../images/python.webp'
 import jira from '../images/brandmark-logo-jira.svg'
 import post from '../images/postman-logo-icon-orange.svg'
 import selenium from '../images/Selenium_Logo.png'
-import sql from '../images/sql.png'
 import play from '../images/playwright-logo.svg'
 import test from '../images/testrail.webp'
 import trello from '../images/UY7DlO0a_400x400.png'
@@ -29,7 +28,7 @@ import cyss from '../images/cypress_logo_social.png'
 import appium from '../images/appium.png'
 
 import redux from '../images/2020-05-04-ionic-react-and-redux-74ed1080.png'
-import { Fade, Zoom, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Skill = () => {
     return (
