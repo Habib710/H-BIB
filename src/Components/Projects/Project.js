@@ -1,17 +1,15 @@
 import React from 'react'
 import './Project.css'
+
 import depo from '../images/TestCase_1.png'
 import eshop from '../images/todo.png'
-import sss from '../images/asa.png'
-import asa from '../images/sss.png'
 import bug2 from '../images/Bug_23.png'
 import ee from '../images/sele_11.png'
 import excu from '../images/excu.png'
 import doc from '../images/doc.png'
-import tas from '../images/bug_1.png'
-import { Fade, Zoom, Slide } from "react-awesome-reveal";
+
+import { Fade } from "react-awesome-reveal"
 import { Icon } from '@iconify/react'
-import { Link } from 'react-router-dom'
 
 const Project = () => {
   return (
