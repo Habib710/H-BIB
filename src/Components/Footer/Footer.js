@@ -40,7 +40,7 @@ edge of SDLC, STLC, and Agile methodology.</p>
             <h5>Developed By <br /> Md Habibullah</h5>
             <br />
             <h6>All Right Reserved</h6>
-            <h6>Copyright 2025</h6>
+            <h6>Copyright 2026</h6>
          </div>
             
         </div>
